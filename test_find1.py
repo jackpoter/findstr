@@ -9,6 +9,8 @@ while True:
     try:
         n = a1.index('\n',m+1)
         list.append(n)
+        print a1[m:n+1]
+        print '-'*30
         m = n
         nn += 1
     except:break
@@ -16,6 +18,7 @@ while True:
 print 'done'
 print 'nn:', nn
 print 'list:', list
+
 
 
 '''
